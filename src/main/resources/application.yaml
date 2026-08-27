@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: RestoCast
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/restaurant?useSSL=false&serverTimezone=Asia/Ho_Chi_Minh
+    username: root
+    password: 14012005
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
